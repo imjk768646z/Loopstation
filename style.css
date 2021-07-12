@@ -1,0 +1,162 @@
+body {
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+audio {
+	width:255px;
+}
+
+div {
+	margin-top:100px;
+	text-align:center;
+}
+
+.container {
+	height: 500px;
+	width:1880px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 767px){
+	.container {
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.container {
+		width:750px;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.container {
+		width:970px;
+	}
+}
+
+@media screen and (min-width: 1440px){
+	.container {
+		width:1418px;
+	}
+}
+
+@media screen and (min-width: 1920px){
+	.container {
+		width:1898px;
+	}
+}
+
+.inner-first {
+	/* text-align:center; */
+    display: inline-block;
+}
+
+.inner1 {
+	background-image: url(images/recording-1.png);
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 280px;
+}
+
+.inner2 {
+	background-image: url(images/recording-2.png);
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 280px;
+}
+
+.inner3 {
+	background-image: url(images/recording-3.png);
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 280px;
+}
+
+.inner4 {
+	background-image: url(images/recording-4.png);
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 280px;
+}
+
+.inner-merge {
+	background-image: url(images/merge-tracks.png);
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 280px;
+	margin: 0 auto;
+}
+
+.record-btn {
+	background: url(images/record_button.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	margin: 75px 55px -45px 42px;
+}
+
+.record-btn-down {
+	background: url(images/record_button_down.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	margin: 75px 55px -45px 42px;
+}
+
+.button-stop {
+	background: url(images/stop_button.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	margin: 75px 55px -45px 42px;
+}
+
+.button-stop-down {
+	background: url(images/stop_button_down.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	font-size: 8px;
+	margin: 75px 55px -45px 42px;
+}
+
+.button-block {
+	background: url(images/block_button.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	margin: 75px 55px -45px 42px;
+}
+
+.merge-btn {
+	background: url(images/download_button.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	margin: 75px 55px -45px 42px;
+}
+
+.merge-btn-down {
+	background: url(images/download_button_down.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	margin: 75px 55px -45px 42px;
+}
+
+.merge-btn-block {
+	background: url(images/download_block.png) no-repeat;
+	border: none;
+	padding: 92px 92px;
+	margin: 75px 55px -45px 42px;
+}
+
+.delete-btn{
+	background: url(images/trash.png) no-repeat;
+	border: none;
+	padding: 23px 23px;
+	margin: 0px 0px 0px -105px;
+}
+
+.delete-btn-down{
+	background: url(images/trash_down.png) no-repeat;
+	border: none;
+	padding: 23px 23px;
+	margin: 0px 0px 0px -105px;
+}
